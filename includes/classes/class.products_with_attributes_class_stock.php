@@ -1177,7 +1177,7 @@ Of the attributes provided, determine the number of those attributes that are
       $file_value = PRODUCTS_OPTIONS_VALUE_TEXT_ID;
     }
 
-    if (!empty($attribute_list) && is_array($attribute_list)) {
+    if (!empty($attribute_list) || is_array($attribute_list)) {
       $compArray = $attribute_list;
     }
 
